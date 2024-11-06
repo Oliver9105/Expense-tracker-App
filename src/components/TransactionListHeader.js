@@ -1,5 +1,5 @@
-const TransactionListHeader = () => {
-    return <h2>Transactions</h2>
-  };
+function TransactionListHeader() {
+  return <h2>Transactions</h2>
+}
 
-  export default TransactionListHeader;
+export default TransactionListHeader;

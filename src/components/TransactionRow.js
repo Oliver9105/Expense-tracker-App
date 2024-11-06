@@ -1,18 +1,17 @@
-
-
-const TransactionRow = () => {
+const TransactionRow = (props) => {
   return (
     <tr>
-    <td>None</td>
-    <td>Salary</td>
-    <td>Income</td>
-    <td>10000</td>
-    <td>
-      <button>Edit</button>
-      <button>Delete</button>
-    </td>
-  </tr>
+      <td>{props.date || "Null"}</td>
+      <td>{props.description}</td>
+      <td>{props.type}</td>
+      <td>{props.amount}</td>
+
+      <td>
+        <button>Edit</button>
+        <button>Delete</button>
+      </td>
+    </tr>
   );
-}
+};
 
 export default TransactionRow;

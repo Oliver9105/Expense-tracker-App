@@ -6,9 +6,10 @@ const TransactionTable = () => {
     <div>
       <table>
         <TransactionTableHeader />
-       <TransactionTableBody />
-        </table>
-      </div>
-    );
-  };
-  export default TransactionTable;
+        <TransactionTableBody />
+      </table>
+    </div>
+  );
+};
+
+export default TransactionTable;
